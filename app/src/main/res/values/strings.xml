@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MyMemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="日付">日付：</string>
+    <string name="タイトル">タイトル：</string>
+    <string name="詳細">詳細：</string>
+    <string name="保存">保存</string>
+    <string name="削除">削除</string>
+    <string name="保護チェックボックス">保護</string>
+    <string name="検索">検索</string>
+    <string name="検索条件">検索条件</string>
+    <string name="タイトル検索">タイトル検索文字列：</string>
+    <string name="内容検索">内容検索文字列：</string>
+    <string name="検索実行">検索実行</string>
+    <string name="home">ホーム</string>
+    <string name="help">ヘルプ</string>
+    <string name="search">検索</string>
+    <string name="in">インポート</string>
+    <string name="out">エクスポート</string>
+    <string name="version">バージョン</string>
+    <string name="setting">設定</string>
+    <string name="bulb">明るさ</string>
+    <string name="speaker">音量</string>
+    <string name="key">暗証番号</string>
+    <string name="garbage">ごみ箱</string>
+    <string name="検索１">検索１</string>
+    <string name="音声認識">音声認識</string>
+    <string name="メール">メール</string>
+    <string name="help1_content">
+        ＜＜メニューの機能＞＞\n\n
+        【メモ追加】メモを追加します。メイン画面の右下のボタンでもメモを追加できます。\n\n
+        【メモ検索】登録されているメモの検索を行います。\n\n
+        【検索ワード設定】ＷＥＢ検索するキーワードを５つまで設定できます。\n\n
+        【ＷＥＢ検索】検索ワード設定で設定されたキーワードでＷＥＢ検索を行います。\n\n\n
+        【ヘルプ】この画面です。\n\n
+    ＜＜メモ入力画面のボタン＞＞\n\n
+        【保存】メモを保存します。\n\n
+        【音声認識】音声をタイトルと詳細に入力します。\n\n
+        ※音声で、日本語認識させるには設定の確認が必要\n
+設定→言語と文字入力→GOOGLE音声入力の設定→LANGUAGEで日本語設定（日本語以外は消すこと）\n\n
+        【メール】ＧＭＡＩＬ画面を表示します。\n\n
+        【削除】表示しているメモを削除します。\n\n
+
+
+    </string>
+
+</resources>

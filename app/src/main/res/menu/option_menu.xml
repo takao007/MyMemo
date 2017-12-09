@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/menu1"
+        android:orderInCategory="0"
+        android:title="@string/home"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/menu3"
+        android:orderInCategory="1"
+        android:title="@string/search">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/menu2"
+        android:orderInCategory="2"
+        android:title="@string/help">
+        <menu>
+            <item
+                android:id="@+id/item6"
+                android:icon="@drawable/menu6"
+                android:orderInCategory="0"
+                android:title="@string/version">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item7"
+        android:icon="@drawable/menu7"
+        android:orderInCategory="3"
+        android:title="@string/setting">
+        <menu>
+            <item
+                android:id="@+id/item8"
+                android:icon="@drawable/menu8"
+                android:orderInCategory="0"
+                android:title="@string/bulb"/>
+            <item
+                android:id="@+id/item9"
+                android:icon="@drawable/menu9"
+                android:orderInCategory="1"
+                android:title="@string/speaker"/>
+            <item
+                android:id="@+id/item10"
+                android:icon="@drawable/menu10"
+                android:orderInCategory="2"
+                android:title="@string/key"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item11"
+        android:icon="@drawable/menu11"
+        android:orderInCategory="4"
+        android:title="@string/garbage">
+    </item>
+</menu>
