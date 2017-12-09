@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {       //Activity派生ク�
     public boolean onCreateOptionsMenu(Menu menu) {
         Log.d("LIFE","onCreateOptionsMenu");
 
-        //共有プリファレンスを読み込む
+        //共有プリファレンスを読み込みます。
         pref = PreferenceManager.getDefaultSharedPreferences(this);
         editor = pref.edit();
 
